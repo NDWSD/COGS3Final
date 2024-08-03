@@ -1,0 +1,13 @@
+
+h1 {
+  text-align: center;
+  margin-bottom: 5%;
+}
+body {
+  line-height: 5rem;
+  color: rgb(209, 27, 27);
+  background-color: #494949;
+  background: url("banquet.jpeg") center/cover, no-repeat;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
