@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/6d4238d2ac.js" crossorigin="anonymous"></script>    
+    <title>My Portfolio</title>
+</head>
+<body>
+    <header>
+            <div>
+                <nav class="navbar navbar-expand-lg navbar-light">
+                  <a class="navbar-brand"></a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul>
+                            <li class="li"><a href="#home">Home</a></li>
+                            <li class="li"><a href="#projects">Portfolio</a></li>
+                            <li class="li"><a href="#resume">Resume</a></li>
+                            <li class="li"><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>    
+            </div>       
+        <h1><a class="logo"><img src="https://fontmeme.com/permalink/240801/57a222e27187e47738d72cfe10b4ff01.png" alt="logo"></a>
+        </h1>
+        <h2 class="name">Neil Walker</h2>
+    </header>
+    <section id="home">
+        <h2 class="h2">Home</h2>
+        <p class="text2">Welcome to my portfolio!</p>
+        <p class="text2">My name is Neil Walker and I am currently a senior at the University of California, San Diego, pursuing a bachelor's of science in Business Economics. I enjoy exercising, watching films, and adventuring outdoors!  </p>
+        <p class="text2">Below are some of my completed projects where I utilize and demonstrate proficiency in skillsets such as HTML, CSS, Bootstrap, and Javascript.</p>
+        <p class="text2">Thank you for stopping by, and please feel free to contact me if you have any questions, concerns, or other inquires! </p>
+    </section>
+    <hr class="styled-hr">
+    <section id="projects">
+        <h2 class="h2">Portfolio</h2>
+        <div class="project">
+            <a href="DiceLab/WalkerDiceLabJS.html">
+                <img class="dice" src="DiceLab/images/dicegame.png" alt="Project 1">
+                <div class="overlay">
+                    <div class="text">Dice Game</div>
+                </div>
+            </a>
+        </div>
+        <div class="project">
+            <a href="WalkerLab3.html">
+                <img src="Lab3Images/studybuddy.png" alt="Project 2">
+                <div class="overlay">
+                    <div class="text">studyBuddy</div>
+                </div>
+            </a>
+        </div>  
+        <div class="project">
+            <a href="https://www.figma.com/proto/rM1rGYM1RNmq2OpiaQxAzG/FIGMA-Lab-5---Neil-Walker-COGS-3?node-id=0-1&t=zNDFlPKumHQivEoN-1">
+                <img src="Figma/xcersize.png" alt="Project 3">
+                <div class="overlay">
+                    <div class="text">Xcersize App</div>
+                </div>
+            </a>
+        </div>
+        <div class="project">
+            <a href="WeddingPlannerLab/WalkerWeddingPlannerLab4.html">
+                <img src="WeddingPlannerLab/weddingplanner.png" alt="Project 4">
+                <div class="overlay">
+                    <div class="text">Wedding Planner Guest Distribution</div>
+                </div>
+            </a>
+        </div>
+    </section>
+    <hr class="styled-hr">
+    <section id="resume">
+        <h2 class="h2">Resume</h2>
+        <a>
+            <div class="project">
+                <a href="ResumeCOGS 3.pdf">
+                <img src="ResumeCOGS 3.png" alt="Resume">
+                <div class="overlay">
+                    <div class="text">More details</div>
+                </div>
+            </a>
+        </div>
+    </section>
+    <footer class="footer">
+        <section id="contact" class="contact">
+            <h2 class="h2">Contact</h2>
+            <form id="contact-form">
+                <textarea id="message" name="message" required></textarea>
+                <p></p>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        <p>&copy; 2024 Neil Walker. All rights reserved.</p>
+        <i class="social-icon fa-brands fa-square-instagram"></i>
+        <i class="social-icon fa-brands fa-x-twitter"></i>
+        <i class="social-icon fa-brands fa-facebook"></i>
+        <i class="social-icon fa-brands fa-tiktok"></i>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
