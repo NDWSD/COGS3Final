@@ -20,12 +20,13 @@ body {
     border: 1.5px solid #333c4d;
 }
 
-.li {
+.nav-link {
     text-align: center;
     font-family: Manrope;
-    margin: 60px;
-    margin-left: 270px;
-    padding: 5px;
+    margin: 10px;
+    margin-left: 30px;
+    margin-right: 50px;
+    padding: 50px;
 }
 
 header {
